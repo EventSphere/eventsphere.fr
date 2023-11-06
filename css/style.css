@@ -1,0 +1,14 @@
+:root {
+    --baby-pink: #FDCDCD;
+    --misty-rose: #FDE3E3;
+    --white: #FFFFFF;
+    --light-coral: #F57474;
+}
+
+body {
+    margin: auto 0;
+}
+
+header {
+    background-color: var(--baby-pink);
+}
