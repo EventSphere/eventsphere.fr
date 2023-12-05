@@ -26,12 +26,12 @@ header {
     margin-right: 30px;
 }
 
-#socials {
-    align-items: baseline;
+#socials li a i {
+    font-size: 30px;
 }
 
-#socials li a img {
-    width: 40%;
+#socials {
+    align-items: baseline;
 }
 
 #links li a, #socials li a {
