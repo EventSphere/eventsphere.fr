@@ -80,7 +80,7 @@ form input[type="submit"]:hover {
 
 form #textarea {
     margin-top: 10px;
-    height: 200px;
+    height: 400px;
     resize: none;
     text-align: left;
     padding: 15px;
