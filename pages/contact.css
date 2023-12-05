@@ -73,14 +73,14 @@ form {
     flex-direction: column;
 }
 
-form input {
+form input, form textarea {
     border: 2px solid #FDCDCD;
     background: transparent;
     padding: 15px;
     color: #FDCDCD;
 }
 
-form input::placeholder {
+form input::placeholder, form textarea::placeholder {
     color: #FDCDCD;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
@@ -113,8 +113,12 @@ form input[type="submit"] {
 }
 
 form #textarea {
+    margin-top: 10px;
     height: 200px;
     resize: none;
+    text-align: left;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form #textarea::placeholder {
