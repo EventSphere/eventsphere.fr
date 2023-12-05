@@ -1,35 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
+
+/* 
+  Code de base 
+*/
+
 body {
     margin: auto 0;
     color: white;
-}
-
-#bgVideo {
-    z-index: -500;
-
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#calque-noir {
-    z-index: -450;
-
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-
-    background: rgba(0, 0, 0, 0.500);
+    background: black;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    /*background-color: black; -- Propriété à supprimer sur une nouvelle page*/
 }
 
 #links, #socials {
@@ -55,6 +40,36 @@ header {
     text-decoration: none;
     font-family: Arial;
     margin: 20px
+}
+
+main {
+    padding: 20px;
+}
+
+/* 
+  Fin de la base CSS
+*/
+
+#bgVideo {
+    z-index: -500;
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#calque-noir {
+    z-index: -450;
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+    background: rgba(0, 0, 0, 0.500);
 }
 
 main {
