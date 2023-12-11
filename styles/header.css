@@ -51,12 +51,21 @@ header #socials li a {
     display: block;
 }
 
-@media all and (max-width: 1000px) {
-    header #socials li a {
+@media screen and (max-width: 1000px) {
+    header #socials li {
+        width: min-content;
+    }
+
+    header #socials {
         display: none;
     }
 
-    header #socials li {
-        width: min-content;
+    header {
+        justify-content: center;
+        padding: 14px;
+    }
+
+    header #links li:nth-child(1) {
+        display: none;
     }
 }
