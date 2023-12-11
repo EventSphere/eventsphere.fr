@@ -68,18 +68,16 @@ form input[type="submit"] {
     margin-top: 10px;
     background-color: #FDCDCD;
     border-radius: 5px;
-    color: white;
+    color: black;
     font-size: 150%;
-}
 
-form input[type="submit"] {
-    transition: .8s;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 form input[type="submit"]:hover {
     background-color: #F57474;
-    color: white;
-    transition: .8s;
+    color: black;
 }
 
 form #textarea {
@@ -99,4 +97,33 @@ form #button {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+}
+
+
+@media all and (max-width: 700px) {
+    form #line {
+        flex-direction: column;
+    }
+
+    form input {
+        margin-bottom: 10px;
+    }
+
+    #line input[type="text"] {
+        margin-right: 0;
+    }
+
+    form input[type="submit"]  {
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+
+        flex-grow: 1;
+        padding: 0;
+
+        padding: 20px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
