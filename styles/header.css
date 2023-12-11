@@ -46,3 +46,17 @@ header {
 /* 
   Fin de la base CSS
 */
+
+header #socials li a {
+    display: block;
+}
+
+@media all and (max-width: 1000px) {
+    header #socials li a {
+        display: none;
+    }
+
+    header #socials li {
+        width: min-content;
+    }
+}
