@@ -39,11 +39,7 @@ header {
     margin: 20px
 }
 
-main {
-    padding: 20px;
-}
-
-.nobg {
+.no-bg {
     background: transparent;
 }
 
