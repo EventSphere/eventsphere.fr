@@ -35,6 +35,7 @@ main #text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 
     margin-top: 50vh;
     transform: translateY(-50%);
@@ -61,5 +62,5 @@ main h2 {
     margin-top: -5vh;
 
     background: #FDCDCD;
-    filter: blur(200px);
+    filter: blur(150px);
 }
