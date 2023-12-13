@@ -1,0 +1,34 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(251,204,204);
+}
+
+nav{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav li{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 15px;
+}
