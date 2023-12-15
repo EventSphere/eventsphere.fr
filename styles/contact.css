@@ -6,11 +6,11 @@ main {
 
 main p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #FDCDCD;
+    color: black;
 }
 
 main p a {
-    color: #FDCDCD;
+    color: black;
     text-decoration: none;
     font-weight: 800;
 }
@@ -21,7 +21,7 @@ h1 {
     font-weight: 100;
     flex-direction: column;
     align-items: center;
-    color: #FDCDCD;
+    color: black;
 
     font-size: 350%;
 }
@@ -32,14 +32,14 @@ form {
 }
 
 form input, form textarea {
-    border: 2px solid #FDCDCD;
+    border: 2px solid black;
     background: transparent;
     padding: 15px;
-    color: #FDCDCD;
+    color: black;
 }
 
 form input::placeholder, form textarea::placeholder {
-    color: #FDCDCD;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
 }
@@ -66,9 +66,9 @@ form input[name="project"] {
 
 form input[type="submit"] {
     margin-top: 10px;
-    background-color: #FDCDCD;
+    background-color: black;
     border-radius: 5px;
-    color: black;
+    color: #FDCDCD;
     font-size: 150%;
 
     padding-left: 80px;
@@ -76,7 +76,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #F57474;
+    background-color: #FDCDCD;
     color: black;
 }
 

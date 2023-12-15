@@ -4,16 +4,21 @@
 
 body {
     margin: auto 0;
-    color: white;
-    background: black;
+    color: black;
+    background-color: #fdcdcd60;
+    
+}
+
+header * {
+    color: pink !important;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: black;
+    border-bottom: 1px solid black;
 }
-
 #links, #socials {
     list-style-type: none;
     display: flex;
