@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+
+    .gauche1, .droite1 {
+        width: 90%;
+    }
+
+    .gauche1, .centre1, .droite1 {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .centre1 {
+        text-align: center;
+        width: 100%;
+
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+
+    .centre1 iframe {
+        border-radius: 5px;
+        width: 75%;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

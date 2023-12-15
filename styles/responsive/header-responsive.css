@@ -1,4 +1,8 @@
 @media all and (max-width: 1000px) {
+    header {
+        background-color: black !important;
+    }
+
     header #socials, header #links {
         display: none;
     }
@@ -27,7 +31,6 @@
         justify-content: right;
         flex-direction: column;
         padding: 14px;
-        background: transparent;
     }
 
     label {
