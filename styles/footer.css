@@ -3,15 +3,20 @@ footer{
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
-    height: 400px;
     color : rgb(0, 0, 0);
     background-color: pink;
 
     border-top: 3px solid black;
 }
 
-.gauche1 h4 {
-    text-align: center;
+.gauche1 {
+    border-right: 3px solid rgb(17, 16, 16);
+    width: 20%;
+    padding: 20px;
+}
+
+.gauche1 h2 {
+    font-family: GFS Didot, serif;
 }
 
 .gauche1 ul {
@@ -21,18 +26,11 @@ footer{
    justify-content: center;
    display: flex;
    flex-direction: column;
-   text-align: center;
 }
+
 .gauche1 ul li a {
     text-decoration: none;
     color: black;
-    margin: 14px;
-}
-
-.social {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .social i {
@@ -44,10 +42,6 @@ footer{
     color: black;
 }
 
-.gauche1, .centre1, .droite1 {
-    width: 30%;
-}
-
 .centre1 iframe {
     border-radius: 5px;
 
@@ -55,16 +49,21 @@ footer{
     margin-right: auto;
 }
 
-.gauche1 {
-    border-right: 3px solid rgb(17, 16, 16);
-    width: 20%;
-}
-
 .centre1 {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
 
+.centre1 a img {
+    width: 100%;
+}
+
+.centre1 p {
+    height: min-content;
+    padding: 20px;
 }
 
 .centre1 iframe{
@@ -75,13 +74,20 @@ footer{
 
 .centre1 #adresse {
     text-align: center;
-  margin: auto; 
+    margin: auto; 
 }
+
 .droite1 {
 
     border-left: 3px solid rgb(17, 16, 16);
     width: 20%;
     padding-top: 70px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .droite1 img {
