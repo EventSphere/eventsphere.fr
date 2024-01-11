@@ -19,10 +19,6 @@
 
     .centre1 {
         text-align: center;
-        width: 100%;
-
-        border-top: 3px solid black;
-        border-bottom: 3px solid black;
 
         flex-direction: column;
     }
@@ -33,6 +29,22 @@
 
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .centre1 #adresse p {
+        padding: 0;
+    }
+
+    .centre1 #adresse {
+        padding: 10px;
+    }
+
+    .gauche1 {
+        border-bottom: 3px solid black;
+    }
+
+    .droite1 {
+        border-top: 3px solid black;
     }
     
 }
