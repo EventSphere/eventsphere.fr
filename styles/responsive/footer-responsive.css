@@ -7,6 +7,9 @@
 
     .gauche1, .droite1 {
         width: 90%;
+
+        border-right: none;
+        border-left: none;
     }
 
     .gauche1, .centre1, .droite1 {
