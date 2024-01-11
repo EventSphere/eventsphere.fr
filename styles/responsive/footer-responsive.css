@@ -15,6 +15,7 @@
     .gauche1, .centre1, .droite1 {
         padding-top: 14px;
         padding-bottom: 14px;
+        width: 80%;
     }
 
     .centre1 {
