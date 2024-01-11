@@ -1,27 +1,9 @@
 @media all and (max-width: 1000px) {
-    form #line {
+    #contenu {
         flex-direction: column;
     }
 
-    form input {
-        margin-bottom: 10px;
-    }
-
-    #line input[type="text"] {
-        margin-right: 0;
-    }
-
-    form input[type="submit"]  {
-        display: flex;
-        justify-content: center;
-        vertical-align: center;
-
-        flex-grow: 1;
-        padding: 0;
-
-        padding: 20px;
-
-        margin-left: auto;
-        margin-right: auto;
+    #contenu:nth-child(2n+1) {
+        flex-direction: column-reverse;
     }
 }
