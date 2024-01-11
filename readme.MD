@@ -13,3 +13,4 @@ Auteurs:
 - [Alexis Rarchaert](https://github.com/alexis-rarchaert)
 - [Sarah Reynold De Seresin](https://github.com/sasouuuu)
 - [Warda Bissane]()
+- [Théo Chabouni]()
