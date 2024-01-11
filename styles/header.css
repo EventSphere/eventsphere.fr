@@ -1,0 +1,60 @@
+/* 
+  Code de base 
+*/
+
+body {
+    margin: auto 0;
+    color: black;
+    background-color: #fdcdcd60;
+    
+}
+
+header * {
+    color: pink !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#links, #socials {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#socials li a i {
+    font-size: 30px;
+}
+
+#socials {
+    align-items: baseline;
+}
+
+#links li a, #socials li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    margin: 20px
+}
+
+.no-bg {
+    background: transparent;
+}
+
+/*
+  Fin de la base CSS
+*/
+
+header #socials li a {
+    display: block;
+}
+
+label, #toggle {
+    display: none;
+}

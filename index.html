@@ -1,41 +1,101 @@
+<!--
+
+  ______               _    _____       _      __             __      
+ |  ____|             | |  / ____|     | |     \_\           / _|     
+ | |____   _____ _ __ | |_| (___  _ __ | |__   ___ _ __ ___  | |_ _ __ 
+ |  __\ \ / / _ \ '_ \| __|\___ \| '_ \| '_ \ / _ \ '__/ _ \ |  _| '__|
+ | |___\ V /  __/ | | | |_ ____) | |_) | | | |  __/ | |  __/_| | | |   
+ |______\_/ \___|_| |_|\__|_____/| .__/|_| |_|\___|_|  \___(_)_| |_|   
+                                 | |
+                                 |_|
+ 
+            Un  site durable, pour un avancement durable.
+                             © 2023
+-->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5PJKVDSX');</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4VE532FQ3"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-X4VE532FQ3');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="EventSphère est une agence de communication 360° spécialisée dans le secteur de l'évènementiel sur Toulouse">
+    <meta name="keywords" content="EventSphère, Agence 360, Communication 360, Toulouse, Tarn-Et-Garonne, Site internet, Community management">
 
-    <title>EventSphère.fr &bull; Agence de communication 360° basée à Toulouse</title>
+    <script src="https://kit.fontawesome.com/6e1e571185.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+    <link rel="stylesheet" href="styles/responsive/header-responsive.css"/>
+
+    <link rel="shortcut icon" href="assets/img/icons/favicon.png" type="image/png">
+
+    <title>Agence de communication 360° basée à Toulouse</title>
+
 </head>
+
+
 <body>
-    <header>
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PJKVDSX"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="no-bg">	   	
+        <label for="toggle"><span>☰</span></label>
+        <input type="checkbox" id="toggle">
         <ul id="links">
-            <li><a href="#"><img src="assets/img/eventsphere.png" alt="Logo EventSphère"></a></li>
-            <li><a href="#">L'Agence</a></li>
-            <li><a href="#">Réalisations</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html"><img src="assets/img/icons/favicon.png" alt="Logo EventSphère"></a></li>
+            <li><a href="pages/agence.html">L'Agence</a></li>
+            <li><a href="pages/realisations.html">Réalisations</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
         </ul>
         <ul id="socials">
-            <li><a href="#"><img src="assets/img/icons/instagram.png" alt="Icône Instagram"></a></li>
-            <li><a href="#"><img src="assets/img/icons/x.png" alt="Icône X"></a></li>
-            <li><a href="#"><img src="assets/img/icons/linkedin.png" alt="Icône LinkedIn"></a></li>
-            <li><a href="#"><img src="assets/img/icons/mail.png" alt="Icône Mail"></a></li>
+            <li><a href="https://instagram.com/eventsphere.off" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter" target="_blank"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/100288788" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="mailto:nous@eventsphere.fr&subject=Prise de contact" target="_blank"><i class="fa-regular fa-envelope"></i></a></li>
         </ul>
     </header>
 
+
     <main>
         <video id="bgVideo" autoplay muted loop>
-            <source src="assets/videos/toulouse.mp4" type="video/mp4">
+            <source src="assets/videos/festival_resized_compressed.mp4" type="video/mp4"/>
         </video>
 
         <div id="calque-noir"></div>
 
         <div id="text">
+            <div id="ombre-portee"></div>
+
             <h1>EventSphère</h1>
             <h2>Agence de communication 360° basée à Toulouse</h2>
         </div>
     </main>
+
+    <footer>
+        <a href="pages/mentionslegales.html">Mentions Légales</a>
+    </footer>
+
 </body>
+
+
 </html>
