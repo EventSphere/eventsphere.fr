@@ -26,7 +26,7 @@ h1 {
     font-size: 350%;
 }
 
-h3, p {
+h3, h2 {
     font-family: GFS Didot, serif;
     font-weight: 100;
     flex-direction: column;
