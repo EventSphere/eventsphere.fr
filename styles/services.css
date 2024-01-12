@@ -38,11 +38,11 @@ h3 {
     font-weight: 800;
 }
 
-#contenu {
+.contenu {
     display: flex;
 }
 
-#contenu img {
+.contenu img {
     width: 400px;
 }
 
