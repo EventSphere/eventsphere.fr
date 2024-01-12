@@ -4,10 +4,12 @@
     }
 
     .contenu img {
-        width: 50%;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
+
+        border-radius: 15px;
     }
 
     #presentation p {
