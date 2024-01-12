@@ -1,9 +1,9 @@
 @media all and (max-width: 1000px) {
-    #contenu {
+    .contenu {
         flex-direction: column;
     }
 
-    #contenu:nth-child(2n+1) {
+    .contenu:nth-child(2n+1) {
         flex-direction: column-reverse;
     }
 }
