@@ -92,8 +92,8 @@
                 <h4>CityDrink</h4>
                 <p>Réalisation d'affiches publicitaires pour une boisson promotant les produits locaux</p>
 
-                <a href="#">
-                    <span class="text">Accéder au projet</span>
+                <a href="#" id="citydrink-button">
+                    <span class="text">Voir plus</span>
                 </a>
             </article>
 
@@ -106,8 +106,8 @@
                 <h4>SNCF</h4>
                 <p>Affiches publicitaires pour la SNCF, qui promeut l'application SNCF Connect</p>
 
-                <a href="#">
-                    <span class="text">Accéder au projet</span>
+                <a href="#" id="sncf-button">
+                    <span class="text">Voir plus</span>
                 </a>
             </article>
 
@@ -120,8 +120,8 @@
                 <h4>Mugler</h4>
                 <p>Réalisation d'affiches publicitaires pour un nouveau parfum de la marque Mugler</p>
 
-                <a href="#">
-                    <span class="text">Accéder au projet</span>
+                <a href="#" id="mugler-button">
+                    <span class="text">Voir plus</span>
                 </a>
             </article>
         
@@ -134,8 +134,8 @@
                 <h4>National Geographic</h4>
                 <p>Création d'une page de carte pour le magazine National Geographic</p>
 
-                <a href="#">
-                    <span class="text">Accéder au projet</span>
+                <a href="#" id="ng-button">
+                    <span class="text">Voir plus</span>
                 </a>
             </article>
 
@@ -155,6 +155,54 @@
 
            </section>
         </main>
+
+        <div id="citydrink-popup" class="popup">
+            <div class="content">
+                <span class="close" id="close-citydrink">&times;</span>
+
+                <div id="images">
+                    <img src="../assets/img/Affiche1.png" alt="Publicité CityDrink 1">
+                    <img src="../assets/img/Affiche2.png" alt="Publicité CityDrink 2">
+                    <img src="../assets/img/Affiche3.png" alt="Publicité CityDrink 3">
+                </div>
+            </div>
+        </div>
+
+        <div id="sncf-popup" class="popup">
+            <div class="content">
+                <span class="close" id="close-sncf">&times;</span>
+
+                <div id="images">
+                    <img src="../assets/img/sncf.png" alt="Publicité SNCF 1">
+                    <img src="../assets/img/sncf2.png" alt="Publicité SNCF 2">
+                    <img src="../assets/img/sncf3.png" alt="Publicité SNCF 3">
+                </div>
+            </div>
+        </div>
+
+        <div id="mugler-popup" class="popup">
+            <div class="content">
+                <span class="close" id="close-mugler">&times;</span>
+
+                <div id="images">
+                    <img src="../assets/img/alien.png" alt="Publicité Alien Mugler">
+                    <img src="../assets/img/aura.png" alt="Publicité Aura Mugler">
+                    <img src="../assets/img/angel.png" alt="Publicité Angel Mugler">
+                </div>
+            </div>
+        </div>
+
+        <div id="ng-popup" class="popup">
+            <div class="content">
+                <span class="close" id="close-ng">&times;</span>
+
+                <div id="images">
+                    <img src="../assets/img/ngc.png" alt="Publicité National Geographic">
+                    <img src="../assets/img/ngc2.png" alt="Publicité National Geographic">
+                    <img src="../assets/img/ngc3.png" alt="Publicité National Geographic">
+                </div>
+            </div>
+        </div>
 
         <footer>
             <div class="gauche1">
@@ -209,5 +257,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="../scripts/modals.js"></script>
     </body>
 </html>
