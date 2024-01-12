@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+main {
+    padding: 40px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+main p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+h1 {
+    display: flex;
+    font-family: GFS Didot, serif;
+    font-weight: 100;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+    font-size: 350%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    border: 2px solid black;
+    background: transparent;
+    padding: 15px;
+    color: black;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+#line {
+    display: flex;
+    justify-content: space-between;
+}
+
+#line input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#line input[type="text"]:last-child {
+    margin-right: 0;
+}
+
+form input[name="project"] {
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: #FDCDCD;
+    font-size: 150%;
+
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #FDCDCD;
+    color: black;
+}
+
+form #textarea {
+    margin-top: 10px;
+    height: 400px;
+    resize: none;
+    text-align: left;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form #textarea::placeholder {
+    font-size: 120%;
+}
+
+form #button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.contenu {
+    display: flex;
+    margin-top: 2%;
+}
+
+.contenu img {
+    width: 20%;
+}
+
+#presentation p {
+    margin-left: 2%;
+}
+
+#equipe {
+    display: flex;
+}
+
+#equipe article{
+    background-color: white;
+    margin: 1%;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    width: 20%;
+}
+
+#equipe article h4{
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#equipe article p{
+    margin-left: 2%;
+
+}
+
+#equipe article img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
