@@ -1,27 +1,32 @@
 @media all and (max-width: 1000px) {
-    form #line {
+    .contenu {
         flex-direction: column;
     }
 
-    form input {
-        margin-bottom: 10px;
-    }
-
-    #line input[type="text"] {
-        margin-right: 0;
-    }
-
-    form input[type="submit"]  {
-        display: flex;
-        justify-content: center;
-        vertical-align: center;
-
-        flex-grow: 1;
-        padding: 0;
-
-        padding: 20px;
-
+    .contenu img {
+        width: 50%;
+        display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #presentation p {
+        margin-left: 0%;
+    }
+
+    #equipe {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #equipe article {
+        width: 100%;
+        margin: 0%;
+        margin-bottom: 2%;
+    }
+
+    #video {
+        width: 75%;
     }
 }
