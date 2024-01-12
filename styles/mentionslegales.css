@@ -1,7 +1,5 @@
 html, body{
     padding: 0px;
-    margin: 0px;
-    background-color: black;
 }
 
 h1 {
@@ -10,7 +8,7 @@ h1 {
     font-weight: 100;
     flex-direction: column;
     align-items: center;
-    color: #FDCDCD;
+    color: black;
 
     font-size: 350%;
     text-decoration: none;
@@ -18,6 +16,7 @@ h1 {
 
 main {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
 }
 
 nav{

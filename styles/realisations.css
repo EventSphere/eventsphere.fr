@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+main {
+    padding: 40px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+main p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+h1 {
+    display: flex;
+    font-family: GFS Didot, serif;
+    font-weight: 100;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+    font-size: 350%;
+}
+
+#explication{
+    display: flex;
+}
+
+#explication img {
+    width: 25%;
+}
+#explication p{
+    margin-left:  2%;
+    display: flex;
+    align-items: center;
+}
+
+#realisations {
+    display: flex;
+    margin-top: 2%;
+}
+
+#realisations article{
+    background-color: white;
+    margin: 1%;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    width: 20%;
+}
+
+#realisations article ul {
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+#realisations article ul li {
+    background-color: #FDCDCD;
+    padding: 4px;
+    font-size: 85%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+#realisations article h4{
+    margin-left: 2%;
+    font-family: 'GFS Didot', serif;
+}
+
+#realisations article p {
+    margin-left: 2%;
+    
+}
+
+#realisations article a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5%;
+}
+
+#realisations article a .text {
+    background-color: #FDCDCD;
+    padding: 2%;
+    border-radius: 20px;
+
+}
+
+#realisations article img {
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}

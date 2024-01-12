@@ -4,8 +4,13 @@
 
 body {
     margin: auto 0;
-    color: white;
-    background: black;
+    color: black;
+    background-color: #fdcdcd48;
+    
+}
+
+header * {
+    color: pink !important;
 }
 
 header {
@@ -13,7 +18,6 @@ header {
     justify-content: space-between;
     background-color: black;
 }
-
 #links, #socials {
     list-style-type: none;
     display: flex;
@@ -43,7 +47,7 @@ header {
     background: transparent;
 }
 
-/* 
+/*
   Fin de la base CSS
 */
 
@@ -51,21 +55,6 @@ header #socials li a {
     display: block;
 }
 
-@media screen and (max-width: 1000px) {
-    header #socials li {
-        width: min-content;
-    }
-
-    header #socials {
-        display: none;
-    }
-
-    header {
-        justify-content: center;
-        padding: 14px;
-    }
-
-    header #links li:nth-child(1) {
-        display: none;
-    }
+label, #toggle {
+    display: none;
 }
